@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="profile_size">128dp</dimen>
+    <dimen name="profile_image_height">80dp</dimen>
+    <dimen name="base_space_margin">8dp</dimen>
+
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="medium_text">16sp</dimen>
+</resources>
