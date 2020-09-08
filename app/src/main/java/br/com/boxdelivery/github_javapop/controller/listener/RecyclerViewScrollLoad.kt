@@ -12,7 +12,7 @@ class RecyclerViewScrollLoad(private val layoutManager: LinearLayoutManager) : R
     private var totalItemCount:Int = 0
 
     fun setLoaded() {
-        isLoading = false
+        isLoading = !isLoading
     }
 
     fun getLoaded() = isLoading
