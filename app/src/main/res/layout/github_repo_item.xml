@@ -3,7 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/small_space_margin"
+    android:layout_marginStart="@dimen/base_space_margin"
+    android:layout_marginEnd="@dimen/base_space_margin"
+    android:layout_marginBottom="@dimen/small_space_margin">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -68,7 +72,8 @@
             android:layout_marginEnd="@dimen/card_margin"
             android:layout_marginBottom="@dimen/card_margin"
             android:ellipsize="end"
-            android:maxLines="3"
+            android:maxLines="2"
+            android:gravity="center_vertical"
             android:text="@string/app_name"
             android:textSize="@dimen/small_text"
             app:layout_constraintBottom_toTopOf="@+id/txv_star"
@@ -85,7 +90,7 @@
             android:drawablePadding="@dimen/base_space_margin"
             android:ellipsize="end"
             android:gravity="center_vertical|start"
-            android:text="35967"
+            android:text="@string/app_name"
             android:textColor="@color/gold"
             android:textSize="@dimen/small_text"
             app:drawableLeftCompat="@drawable/ic_fork"
@@ -103,7 +108,7 @@
             android:drawablePadding="@dimen/base_space_margin"
             android:ellipsize="end"
             android:gravity="center_vertical|start"
-            android:text="110084"
+            android:text="@string/app_name"
             android:textColor="@color/gold"
             android:textSize="@dimen/small_text"
             app:drawableLeftCompat="@drawable/ic_star"
